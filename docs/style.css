@@ -1,44 +1,38 @@
-body {
-  font-family: "Cairo", sans-serif;
-  margin: 0;
-  background: linear-gradient(to bottom, #ffe259, #ffa751);
-  text-align: center;
-  color: #333;
-}
-
-header {
-  background: url("images/bg.jpg") center/cover no-repeat;
-  color: white;
-  padding: 100px 20px;
-}
-
-section {
-  padding: 60px 20px;
-}
-
-.product-list {
+/* قسم آراء العملاء */
+.review-list {
   display: flex;
   justify-content: center;
   gap: 20px;
   flex-wrap: wrap;
+  margin-top: 20px;
 }
 
-.product {
-  background: white;
+.review {
+  background: #fff;
+  padding: 20px;
   border-radius: 15px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  padding: 15px;
-  width: 200px;
+  width: 250px;
+  color: #333;
 }
 
-.product img {
-  width: 100%;
-  border-radius: 10px;
+.review h4 {
+  margin-top: 10px;
+  color: #ff4e50;
 }
 
-footer {
-  background: #333;
-  color: white;
-  padding: 20px;
-  margin-top: 40px;
+/* قسم وسائل التواصل */
+.social-links {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.social-links a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
 }
